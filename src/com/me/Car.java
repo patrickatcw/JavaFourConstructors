@@ -7,4 +7,24 @@ public class Car {
     private String model;
     private String color;
 
+    public Car() {
+    }
+
+    public Car(int year, String manufacturer) {
+        this.year = year;
+        this.manufacturer = manufacturer;
+    }
+
+    public Car(int year, String manufacturer, String model) {
+        this.year = year;
+        this.manufacturer = manufacturer;
+        this.model = model;
+    }
+
+    public Car(int year, String manufacturer, String model, String color) {
+        this.year = year;
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.color = color;
+    }
 }
