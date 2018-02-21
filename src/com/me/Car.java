@@ -27,4 +27,20 @@ public class Car {
         this.model = model;
         this.color = color;
     }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getColor() {
+        return color;
+    }
 }
